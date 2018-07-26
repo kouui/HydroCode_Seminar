@@ -230,7 +230,6 @@ class Simulation:
 
             #: get the timestep
             dt = self.getTimeStep()
-
             if self.t + dt > tmax:
                 dt = tmax - self.t
 
